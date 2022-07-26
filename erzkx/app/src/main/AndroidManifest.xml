@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+    fun main (Args : Array<String>) {
+    println("------------------------------------------------------------------------------")
+    print("Hello user ^^^^^^^^^^^^^^^^^^______^^^^^")
+    println("Silahkan diiisi Biodata berikut ini")
+    println("Have A nice day")
+    println("Now loading")
+    println("10%")
+    println("100%")
+    println("Completed")
+
+    //input
+    print("Nama : ")
+    var kimiNamae = readLine()
+    print("Tanggal Lahir : ")
+    var tanggalLahir = readLine()
+    print("Tempat lahir : ")
+    var tempatLahir = readLine()
+    print("Hobi : ")
+    var hobiKamu = readLine()
+    print("Alamat : ")
+    var alamatKamu = readLine()
+    print("Kesukaan : ")
+    var kesukaan = readLine()
+
+    //output
+    var tesout = """
+    ~~~~~~~~System checking data~~~~~~~~~~~~~~~~~
+    ~~~~~~~~No Eror~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    ~~~~~~~~Procesesing data~~~~~~~~~~~~~~~~~~~~~
+    ~~~~~~~~10 %~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    ~~~~~~~~50 %---------------------------------
+    ~~~~~~~~100 %--------------------------------
+    Yourname = $kimiNamae
+    Tanggal lahir = $tanggalLahir
+    Tempat lahir = $tempatLahir
+    Hobi = $hobiKamu
+    Alamat = $alamatKamu
+    Kesukaan = $kesukaan
+    """
+    print(tesout)
+    }
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.erzkx">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Erzkx" />
+
+</manifest>
